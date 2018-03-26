@@ -95,7 +95,6 @@ function getLatestReleaseVersion()
     ],
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_FOLLOWLOCATION => false,
-    CURLOPT_GET => true
   ]);
   $output = curl_exec($ch);      
   curl_close($ch);
